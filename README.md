@@ -5,7 +5,7 @@ To build a web application that scrapes various websites for data related to the
 ## Navigation of the repo: Submission
 
 1. The Jupyter Notebook contains the scraping code used.
-2. Screenshots of the final application.
+2. Screenshots of the final application are included below.
 
 ## Tools
 
@@ -17,9 +17,7 @@ To build a web application that scrapes various websites for data related to the
 
 ## Step 1 - Scraping
 
-Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
-
-* Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of your scraping and analysis tasks. The following outlines what you need to scrape.
+Complete all of your scraping and analysis tasks using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 ### NASA Mars News
 
@@ -35,7 +33,7 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 ### JPL Mars Space Images - Featured Image
 
 * Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
-* Use splinter to navigate the site sites when needed and BeautifulSoup to help find and parse out the necessary data. Find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
+* Use `splinter` to navigate the site sites when needed and BeautifulSoup to help find and parse out the necessary data. Find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 * Make sure to find the image url to the full size `.jpg` image.
 * Make sure to save a complete url string for this image.
 
@@ -66,7 +64,7 @@ mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, p
 
 * Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
-* You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
+* Need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
 
 * Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
 
@@ -101,6 +99,3 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 ![final_app_part1.png](Images/final_app_part1.png)
 ![final_app_part2.png](Images/final_app_part2.png)
 
-- - -
-
-## Step 3 - Submission
