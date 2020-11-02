@@ -1,11 +1,14 @@
 # web-scraping-challenge - Mission to Mars
-To build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
+
+To build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+ 
 ![mission_to_mars](Images/mission_to_mars.png)
 
 ## Navigation of the repo: Submission
 
-1. The Jupyter Notebook contains the scraping code used.
-2. Screenshots of the final application are included below.
+* All the completed files are in the 'Missions_to_Mars' directory.
+* In that folder, the Step 1 is contained in the `Step_1_BeautifulSoup_Splinter` directory. The Step 2 is contained in the `Step_2_MongoDB_and_Flask` directory.
+* The repo is published and the application is [here](https://qianyuema.github.io/web-scraping-challenge/Missions_to_Mars/Step_2_MongoDB_and_Flask/template).
 
 ## Tools
 
@@ -17,7 +20,7 @@ To build a web application that scrapes various websites for data related to the
 
 ## Step 1 - Scraping
 
-Complete all of your scraping and analysis tasks using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+Complete all of your scraping and analysis tasks using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. The detailed tasks are listed below.
 
 ### NASA Mars News
 
